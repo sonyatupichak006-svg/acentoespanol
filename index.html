@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>acento.espanol &#8212; &#1086;&#1085;&#1083;&#1072;&#1081;&#1085;-&#1096;&#1082;&#1086;&#1083;&#1072; &#1110;&#1089;&#1087;&#1072;&#1085;&#1089;&#1100;&#1082;&#1086;&#1111;</title>
+<meta name="description" content="&#1054;&#1085;&#1083;&#1072;&#1081;&#1085;-&#1091;&#1088;&#1086;&#1082;&#1080; &#1110;&#1089;&#1087;&#1072;&#1085;&#1089;&#1100;&#1082;&#1086;&#1111; &#1110;&#1085;&#1076;&#1080;&#1074;&#1110;&#1076;&#1091;&#1072;&#1083;&#1100;&#1085;&#1086; &#1072;&#1073;&#1086; &#1074; &#1087;&#1072;&#1088;&#1110;. &#1040;&#1082;&#1094;&#1077;&#1085;&#1090; &#1085;&#1072; &#1074;&#1084;&#1110;&#1085;&#1085;&#1110; &#1075;&#1086;&#1074;&#1086;&#1088;&#1080;&#1090;&#1080; &#1087;&#1088;&#1072;&#1074;&#1080;&#1083;&#1100;&#1085;&#1086; &#1090;&#1072; &#1079;&#1110; &#1089;&#1084;&#1072;&#1082;&#1086;&#1084;. &#1041;&#1077;&#1079;&#1082;&#1086;&#1096;&#1090;&#1086;&#1074;&#1085;&#1080;&#1081; &#1087;&#1088;&#1086;&#1073;&#1085;&#1080;&#1081; &#1091;&#1088;&#1086;&#1082; &#1091; Zoom.">
+<meta property="og:title" content="acento.espanol &#8212; &#1110;&#1089;&#1087;&#1072;&#1085;&#1089;&#1100;&#1082;&#1072;, &#1103;&#1082;&#1091; &#1074;&#1110;&#1076;&#1095;&#1091;&#1074;&#1072;&#1108;&#1096;">
+<meta property="og:description" content="&#1040;&#1082;&#1094;&#1077;&#1085;&#1090; &#1085;&#1072; &#1074;&#1084;&#1110;&#1085;&#1085;&#1110; &#1075;&#1086;&#1074;&#1086;&#1088;&#1080;&#1090;&#1080; &#1087;&#1088;&#1072;&#1074;&#1080;&#1083;&#1100;&#1085;&#1086; &#1090;&#1072; &#1079;&#1110; &#1089;&#1084;&#1072;&#1082;&#1086;&#1084;. &#1047;&#1072;&#1087;&#1080;&#1096;&#1080;&#1089;&#1100; &#1085;&#1072; &#1073;&#1077;&#1079;&#1082;&#1086;&#1096;&#1090;&#1086;&#1074;&#1085;&#1080;&#1081; &#1087;&#1088;&#1086;&#1073;&#1085;&#1080;&#1081; &#1091;&#1088;&#1086;&#1082;.">
+<meta name="theme-color" content="#620100">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Golos+Text:wght@400;500;600&family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bordo:#620100; --bordo-2:#820000; --bordo-3:#470A0A;
+    --cream:#F9F8EC; --paper:#FFFDF6; --blush:#F4E6DD; --rose:#E8C9BF; --rose-2:#D9A99C;
+    --ink:#2E1210; --muted:#76544F;
+    --head:'Unbounded','Arial Black',sans-serif;
+    --body:'Golos Text',system-ui,-apple-system,'Segoe UI',sans-serif;
+    --accent:'Cormorant Garamond',Georgia,serif;
+    --r:26px; --max:1160px;
+    --shadow:0 18px 40px -18px rgba(98,1,0,.28);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--cream);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  img{display:block;max-width:100%}
+  a{color:inherit}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 24px;position:relative}
+  section{padding:100px 0;position:relative}
+  .eyebrow{display:inline-block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--bordo);font-weight:600;background:var(--blush);padding:6px 14px;border-radius:999px}
+  .on-blush .eyebrow{background:var(--paper)}
+  h1,h2,h3{font-family:var(--head);font-weight:700;line-height:1.08;color:var(--bordo)}
+  h1,h2{text-transform:uppercase;letter-spacing:-.01em}
+  h2{font-size:clamp(28px,4vw,46px);margin-top:16px}
+  h3{font-size:18px;line-height:1.25;font-weight:500}
+  .acc{font-family:var(--accent);font-style:italic;font-weight:600;text-transform:none;letter-spacing:0}
+  .center{text-align:center}
+  .lead{font-size:18.5px;color:var(--muted)}
+  .on-blush{background:var(--blush)}
+
+  /* floating stickers */
+  .st{position:absolute;pointer-events:none;z-index:2;filter:drop-shadow(0 14px 18px rgba(71,10,10,.18));animation:float 7s ease-in-out infinite}
+  .st.slow{animation-duration:9s}
+  @keyframes float{50%{transform:translateY(-10px) rotate(var(--rot,0deg))}}
+  @media (prefers-reduced-motion:reduce){.st{animation:none}}
+  @media (max-width:800px){.st.hide-m{display:none}}
+
+  /* buttons */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:16px 28px;border-radius:999px;font-weight:600;font-size:16px;text-decoration:none;border:0;cursor:pointer;font-family:inherit;transition:transform .25s, background .25s, color .25s}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-main{background:var(--bordo);color:var(--cream);box-shadow:0 10px 24px -10px rgba(98,1,0,.6)}
+  .btn-main:hover{background:var(--bordo-2)}
+  .btn-ghost{background:transparent;color:var(--bordo);box-shadow:inset 0 0 0 1.5px var(--bordo)}
+  .btn-ghost:hover{background:var(--bordo);color:var(--cream)}
+  .btn-light{background:var(--cream);color:var(--bordo)}
+  .btn svg{width:18px;height:18px}
+
+  /* header */
+  header{position:sticky;top:0;z-index:30;background:rgba(249,248,236,.88);backdrop-filter:blur(10px)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+  .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--bordo);font-family:var(--accent);font-style:italic;font-size:24px;font-weight:600}
+  .logo img{height:30px;width:auto}
+  .nav-links{display:flex;gap:26px;align-items:center;font-size:15px}
+  .nav-links a{text-decoration:none}
+  .nav-links a:not(.btn):hover{color:var(--bordo)}
+  .nav .btn{padding:10px 20px;font-size:14px}
+  @media (max-width:900px){.nav-links a:not(.btn){display:none}}
+
+  /* hero */
+  .hero{padding:56px 0 100px;background:radial-gradient(900px 500px at 85% 20%, var(--blush), transparent 70%)}
+  .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+  .hero h1{font-size:clamp(38px,6vw,76px);margin:20px 0 26px}
+  .hero h1 .acc{font-size:1.14em;color:var(--bordo-2)}
+  .tagline{font-size:clamp(19px,2vw,23px);line-height:1.45;color:var(--ink);max-width:520px}
+  .plaque{display:inline-block;background:var(--bordo);color:var(--cream);font-family:var(--head);font-weight:700;text-transform:uppercase;font-size:.82em;letter-spacing:.04em;padding:3px 12px 4px;border-radius:8px;transform:rotate(-2deg);position:relative;margin-right:4px}
+  .plaque::after{content:"\0000B4";position:absolute;top:-22px;left:50%;font-family:var(--accent);font-size:38px;color:var(--bordo);line-height:1}
+  .tagline em{font-family:var(--accent);font-weight:600;font-size:1.2em;color:var(--bordo)}
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+  .hero-note{margin-top:20px;font-size:15px;color:var(--muted);display:flex;gap:10px;align-items:center}
+  .hero-note b{color:var(--bordo)}
+  .hero-photo{position:relative}
+  .stamp{position:relative;padding:18px;border-radius:6px;
+    background:radial-gradient(circle at center, transparent 5px, var(--paper) 5.5px) -9px -9px/18px 18px;
+    filter:drop-shadow(0 20px 30px rgba(71,10,10,.22));transform:rotate(2deg)}
+  .stamp-frame{border:1.5px solid var(--bordo);padding:10px;background:var(--paper)}
+  .stamp-frame img{aspect-ratio:4/5;object-fit:cover;width:100%;height:auto}
+  .stamp-label{display:flex;justify-content:space-between;align-items:baseline;padding:10px 4px 2px;color:var(--bordo)}
+  .stamp-label b{font-family:var(--head);letter-spacing:.2em;font-size:14px}
+  .stamp-label span{font-family:var(--accent);font-style:italic;font-size:20px}
+  .hero .st-cherry{width:140px;left:-80px;bottom:90px;--rot:-6deg;transform:rotate(-6deg)}
+  .hero .st-bow{width:110px;right:-40px;top:-34px;--rot:12deg;transform:rotate(12deg)}
+  @media (max-width:900px){
+    .hero-grid{grid-template-columns:1fr;gap:48px}
+    .hero-photo{max-width:380px;margin:0 auto}
+    .hero .st-cherry{width:90px;left:-30px;bottom:60px}
+    .hero .st-bow{width:80px;right:-14px}
+  }
+
+  /* band */
+  .band{background:var(--bordo);color:var(--cream);overflow:hidden;padding:20px 0;white-space:nowrap}
+  .band-track{display:inline-flex;gap:46px;animation:slide 34s linear infinite;font-family:var(--head);font-weight:800;text-transform:uppercase;font-size:18px;letter-spacing:.05em}
+  .band-track span::before{content:"\0000B4";font-family:var(--accent);font-weight:600;font-size:32px;margin-right:14px;vertical-align:-8px;color:var(--rose)}
+  @keyframes slide{to{transform:translateX(-50%)}}
+  @media (prefers-reduced-motion:reduce){.band-track{animation:none}}
+
+  /* 80% */
+  .stat-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}
+  .arch{position:relative;max-width:420px}
+  .arch img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:60% 30%;border-radius:999px 999px 28px 28px;height:auto}
+  .arch::before{content:"";position:absolute;inset:-14px;border:1.5px solid var(--bordo);border-radius:999px 999px 38px 38px;z-index:-1}
+  .arch .badge{position:absolute;left:-26px;bottom:40px;background:var(--paper);border-radius:999px;padding:12px 20px;box-shadow:var(--shadow);font-family:var(--accent);font-style:italic;font-size:22px;color:var(--bordo);font-weight:600}
+  .big{font-family:var(--head);font-weight:800;color:var(--bordo);font-size:clamp(110px,17vw,220px);line-height:.9;letter-spacing:-.04em;position:relative;display:inline-block}
+  .big::after{content:"\0000B4";position:absolute;font-family:var(--accent);font-weight:600;font-size:.6em;right:.05em;top:-.42em;color:var(--rose-2)}
+  .big-sub{font-family:var(--accent);font-style:italic;font-weight:600;font-size:clamp(28px,3.4vw,42px);color:var(--ink);line-height:1.15;margin-top:6px}
+  .big-sub b{color:var(--bordo);font-weight:600}
+  @media (max-width:900px){.stat-grid{grid-template-columns:1fr;gap:56px;text-align:center}.arch{margin:0 auto;max-width:320px}.arch .badge{left:-10px}}
+
+  /* mission */
+  .mission{padding:120px 0;background:var(--blush);overflow:hidden;text-align:center}
+  .mission .wm{position:absolute;left:50%;top:50%;width:min(560px,90vw);transform:translate(-50%,-50%);opacity:.08;pointer-events:none}
+  .mission .pre{font-family:var(--head);font-weight:700;text-transform:uppercase;letter-spacing:.24em;font-size:13px;color:var(--bordo)}
+  .mission blockquote{font-family:var(--accent);font-style:italic;font-weight:500;font-size:clamp(36px,5.4vw,72px);line-height:1.08;color:var(--bordo);max-width:900px;margin:20px auto 0;position:relative;z-index:1}
+  .mission blockquote u{text-decoration:none;background:linear-gradient(transparent 62%, var(--rose) 62%, var(--rose) 90%, transparent 90%)}
+  .mission .swirl{width:150px;margin:26px auto 0;color:var(--bordo);opacity:.8}
+  .mission .st-lily{width:140px;right:5%;top:40px;--rot:8deg;transform:rotate(8deg)}
+
+  /* approach */
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:46px}
+  .card{background:var(--paper);border-radius:var(--r);padding:34px 28px;box-shadow:var(--shadow);transition:transform .3s;display:flex;flex-direction:column}
+  .card:hover{transform:translateY(-5px)}
+  .card .num{font-family:var(--accent);font-style:italic;font-size:48px;color:var(--rose-2);line-height:1}
+  .card .ico{width:54px;height:54px;border-radius:50%;background:var(--blush);display:grid;place-items:center;font-size:24px;margin-bottom:18px}
+  .card h3{margin:0 0 10px;color:var(--bordo);font-family:var(--head);font-weight:700;font-size:19px;text-transform:uppercase}
+  .card p{color:var(--muted);font-size:15.5px}
+  .card ul{list-style:none;margin-top:12px;display:grid;gap:6px;font-size:15px;color:var(--muted)}
+  .card li::before{content:"\0000B4";font-family:var(--accent);font-size:26px;color:var(--bordo);margin-right:8px;vertical-align:-8px}
+  .card.dark{background:linear-gradient(140deg,var(--bordo),var(--bordo-3))}
+  .card.dark h3{color:var(--cream)} .card.dark p{color:#f3e2db} .card.dark .ico{background:rgba(249,248,236,.14)}
+  @media (max-width:900px){.cards{grid-template-columns:1fr}}
+
+  /* format + prices */
+  .format{background:linear-gradient(var(--cream),var(--blush))}
+  .tabs{display:inline-flex;background:var(--paper);padding:6px;border-radius:999px;box-shadow:var(--shadow);margin-top:26px;gap:4px}
+  .tab{border:0;background:transparent;font-family:inherit;font-weight:600;font-size:16px;padding:13px 26px;border-radius:999px;cursor:pointer;color:var(--bordo);transition:background .25s,color .25s}
+  .tab[aria-selected="true"]{background:var(--bordo);color:var(--cream)}
+  .help{margin-top:16px;color:var(--muted);font-size:15px}
+  .panel{display:none;margin-top:36px;animation:fade .45s ease}
+  .panel.on{display:grid;grid-template-columns:.85fr 1.15fr;gap:28px;align-items:start}
+  @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .panel-info{background:var(--paper);border-radius:var(--r);padding:34px 30px;box-shadow:var(--shadow)}
+  .panel-info h3{font-family:var(--head);font-weight:700;font-size:24px;text-transform:uppercase;margin:4px 0 10px}
+  .panel-info p{color:var(--muted);margin-bottom:14px}
+  .meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+  .meta span{background:var(--blush);color:var(--bordo);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+  .sub{font-family:var(--accent);font-style:italic;font-size:22px;color:var(--bordo);font-weight:600;margin:18px 0 6px}
+  .ticks{list-style:none;display:grid;gap:7px;font-size:15.5px}
+  .ticks li{padding-left:26px;position:relative}
+  .ticks li::before{content:"\0000B4";position:absolute;left:4px;top:-6px;font-family:var(--accent);font-size:30px;color:var(--bordo)}
+  .prices{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .price{background:var(--paper);border-radius:var(--r);padding:26px 22px;display:flex;flex-direction:column;box-shadow:var(--shadow);position:relative}
+  .price.hot{background:var(--bordo);color:var(--cream)}
+  .price .tag{font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;opacity:.75}
+  .price .badge{position:absolute;top:-11px;right:18px;background:var(--rose);color:var(--bordo);font-size:12px;font-weight:700;padding:4px 12px;border-radius:999px}
+  .price .amount{font-family:var(--head);font-size:28px;color:var(--bordo);margin:12px 0 2px}
+  .price .amount small{font-family:var(--body);font-size:14px;font-weight:500}
+  .price.hot .amount{color:var(--cream)}
+  .price .per{font-size:14px;opacity:.8}
+  .price .part{margin-top:10px;font-size:13.5px;font-weight:600;color:var(--bordo);background:var(--blush);border-radius:999px;padding:5px 12px;align-self:flex-start}
+  .price.hot .part{background:rgba(249,248,236,.15);color:var(--cream)}
+  .price .btn{margin-top:20px;padding:12px 18px;font-size:14.5px}
+  @media (max-width:900px){.panel.on{grid-template-columns:1fr}}
+  @media (max-width:520px){.prices{grid-template-columns:1fr}.tab{padding:12px 16px;font-size:15px}}
+
+  /* trial */
+  .trial-box{background:var(--bordo);color:var(--cream);border-radius:40px;padding:64px 56px;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;position:relative}
+  .trial-box h2{color:var(--cream);margin-top:14px}
+  .trial-box h2 .acc{color:var(--rose)}
+  .trial-box .eyebrow{background:rgba(249,248,236,.14);color:var(--cream)}
+  .trial-box .lead{color:#f0ddd5;margin:18px 0 28px}
+  .steps{display:grid;gap:14px}
+  .step{background:rgba(249,248,236,.08);border-radius:22px;padding:20px 22px;display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start}
+  .step .n{width:44px;height:44px;border-radius:50%;background:var(--cream);color:var(--bordo);display:grid;place-items:center;font-family:var(--head);font-size:17px}
+  .step h3{color:var(--cream);font-weight:600;font-size:17px;font-family:var(--body)}
+  .step p{color:#f0ddd5;font-size:15px}
+  .trial-box .st-card{width:150px;right:-46px;top:-70px;--rot:10deg;transform:rotate(10deg)}
+  @media (max-width:900px){.trial-box{grid-template-columns:1fr;padding:48px 26px;border-radius:30px}.trial-box .st-card{width:96px;right:-8px;top:-56px}}
+
+  /* case */
+  .case-card{background:var(--paper);border-radius:36px;padding:44px;box-shadow:var(--shadow);margin-top:40px;display:grid;grid-template-columns:300px 1fr;gap:40px}
+  .case-photo{position:relative;align-self:start}
+  .case-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%;border-radius:24px;height:auto}
+  .case-photo .mono{width:100%;aspect-ratio:4/5;border-radius:24px;background:radial-gradient(circle at 50% 40%,var(--rose),var(--blush) 70%);display:grid;place-items:center;font-family:var(--accent);font-style:italic;font-weight:600;font-size:150px;color:var(--bordo)}
+  .case-photo .name{position:absolute;left:14px;right:14px;bottom:14px;background:var(--bordo);color:var(--cream);border-radius:16px;padding:12px 16px}
+  .case-photo .name b{font-family:var(--head);text-transform:uppercase;font-size:16px;display:block}
+  .case-photo .name span{font-size:13.5px;opacity:.85}
+  .case-quote{font-family:var(--accent);font-style:italic;font-size:clamp(24px,2.6vw,32px);line-height:1.2;color:var(--bordo);margin-bottom:26px}
+  .case-flow{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .case-step{border-radius:22px;padding:22px 20px;background:var(--cream)}
+  .case-step.b{background:var(--bordo);color:var(--cream)}
+  .case-step .lbl{font-family:var(--accent);font-style:italic;font-size:25px;color:var(--bordo);display:block;margin-bottom:6px;font-weight:600}
+  .case-step.b .lbl{color:var(--rose)}
+  .case-step p,.case-step li{font-size:14.5px}
+  .case-step ul{list-style:none;display:grid;gap:5px}
+  .case-step li::before{content:"\0000B4";font-family:var(--accent);font-size:22px;color:var(--bordo);margin-right:6px;vertical-align:-6px}
+  @media (max-width:980px){.case-card{grid-template-columns:1fr;padding:28px 20px}.case-photo{max-width:300px}.case-photo img{aspect-ratio:1/1}.case-photo .name{position:static;margin-top:10px}.case-flow{grid-template-columns:1fr}}
+
+  /* faq */
+  .faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
+  .faq-side{position:sticky;top:110px}
+  .faq-side p{color:var(--muted);margin:16px 0 26px}
+  .faq-side .st-sun{position:relative;width:190px;margin-top:34px;transform:rotate(-8deg);animation:none}
+  details{background:var(--paper);border-radius:22px;margin-bottom:12px;box-shadow:0 8px 24px -16px rgba(98,1,0,.35);overflow:hidden}
+  summary{list-style:none;cursor:pointer;padding:22px 64px 22px 26px;font-weight:600;font-size:17px;position:relative}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";position:absolute;right:20px;top:50%;transform:translateY(-50%);width:32px;height:32px;border-radius:50%;background:var(--blush);color:var(--bordo);display:grid;place-items:center;font-size:22px;transition:transform .3s, background .3s}
+  details[open] summary::after{transform:translateY(-50%) rotate(45deg);background:var(--bordo);color:var(--cream)}
+  details .ans{padding:0 26px 22px;color:var(--muted)}
+  details .ans b{color:var(--bordo)}
+  @media (max-width:900px){.faq-grid{grid-template-columns:1fr;gap:30px}.faq-side{position:static}.faq-side .st-sun{display:none}}
+
+  /* insta */
+  .insta-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}
+  .post{position:relative;overflow:hidden;border-radius:22px;aspect-ratio:9/14;display:block;box-shadow:var(--shadow)}
+  .post img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+  .post:hover img{transform:scale(1.04)}
+  .post::after{content:"\002197";position:absolute;right:12px;top:12px;width:34px;height:34px;border-radius:50%;background:rgba(249,248,236,.92);color:var(--bordo);display:grid;place-items:center;font-weight:700;opacity:0;transition:opacity .3s}
+  .post:hover::after{opacity:1}
+  .insta-cta{display:flex;justify-content:center;margin-top:36px}
+  @media (max-width:800px){.insta-grid{grid-template-columns:repeat(2,1fr)}}
+
+  /* team */
+  .team-box{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+  .about-school{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 4px}
+  .about-school span{border:1.5px solid var(--bordo);color:var(--bordo);border-radius:999px;padding:6px 14px;font-size:14.5px;font-weight:600}
+  .gets{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:24px 0 18px}
+  .gets div{background:var(--paper);border-radius:16px;padding:14px 16px;box-shadow:0 8px 24px -16px rgba(98,1,0,.35);font-weight:500;font-size:15.5px}
+  .gets .wide{grid-column:span 2}
+  .gets div::before{content:"\0000B4";font-family:var(--accent);font-size:26px;color:var(--bordo);margin-right:8px;vertical-align:-8px}
+  .love{font-family:var(--accent);font-style:italic;font-size:24px;color:var(--bordo);margin:18px 0 26px;line-height:1.25}
+  .team-photo{position:relative}
+  .team-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:36px;height:auto}
+  .team-photo .bienv{position:absolute;right:-14px;bottom:36px;background:var(--bordo);color:var(--cream);font-family:var(--accent);font-style:italic;font-size:28px;font-weight:600;padding:10px 24px;border-radius:999px;transform:rotate(-6deg);box-shadow:var(--shadow)}
+  @media (max-width:900px){.team-box{grid-template-columns:1fr}.team-photo{max-width:380px}.team-photo .bienv{right:6px}}
+  @media (max-width:520px){.gets{grid-template-columns:1fr}.gets .wide{grid-column:auto}}
+
+  /* final */
+  .final{background:linear-gradient(160deg,var(--bordo),var(--bordo-3));color:var(--cream);text-align:center;padding:110px 0}
+  .final h2{color:var(--cream);font-size:clamp(30px,5vw,58px)}
+  .final h2 .acc{color:var(--rose)}
+  .final p{max-width:520px;margin:20px auto 34px;opacity:.88}
+  .final .mark{width:96px;margin:0 auto 22px}
+  .final .ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+  .final .btn-ghost{color:var(--cream);box-shadow:inset 0 0 0 1.5px var(--cream)}
+  .final .btn-ghost:hover{background:var(--cream);color:var(--bordo)}
+
+  footer{background:var(--bordo-3);color:#d9c6bd;border-top:1px solid rgba(249,248,236,.12);padding:28px 0;font-size:14px}
+  footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  footer a{text-decoration:none} footer a:hover{color:var(--cream)}
+
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease, transform .8s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top"><img src="img/mark-bordo.png" alt="">acento.espanol</a>
+    <nav class="nav-links">
+      <a href="#approach">&#1055;&#1088;&#1086; &#1085;&#1072;&#1089;</a>
+      <a href="#format">&#1060;&#1086;&#1088;&#1084;&#1072;&#1090;&#1080; &#1081; &#1094;&#1110;&#1085;&#1080;</a>
+      <a href="#case">&#1050;&#1077;&#1081;&#1089;&#1080;</a>
+      <a href="#faq">&#1055;&#1080;&#1090;&#1072;&#1085;&#1085;&#1103;</a>
+      <a class="btn btn-main" href="https://acentoespanoll.adsquiz.io/?utm_source=website&amp;utm_medium=landing&amp;utm_content=nav" target="_blank" rel="noopener">&#1055;&#1088;&#1086;&#1073;&#1085;&#1080;&#1081; &#1091;&#1088;&#1086;&#1082;</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="reveal">
+        <span class="eyebrow">&#1086;&#1085;&#1083;&#1072;&#1081;&#1085;-&#1096;&#1082;&#1086;&#1083;&#1072; &#1110;&#1089;&#1087;&#1072;&#1085;&#1089;&#1100;&#1082;&#1086;&#1111;</span>
+        <h1>&#1030;&#1089;&#1087;&#1072;&#1085;&#1089;&#1100;&#1082;&#1072;, &#1103;&#1082;&#1091; <span class="acc">&#1074;&#1110;&#1076;&#1095;&#1091;&#1074;&#1072;&#1108;&#1096;</span></h1>
+        <p class="tagline"><span class="plaque">&#1040;&#1082;&#1094;&#1077;&#1085;&#1090;</span> &#1085;&#1072; &#1074;&#1084;&#1110;&#1085;&#1085;&#1110; &#1075;&#1086;&#1074;&#1086;&#1088;&#1080;&#1090;&#1080; <em>&#1087;&#1088;&#1072;&#1074;&#1080;&#1083;&#1100;&#1085;&#1086;</em> &#1090;&#1072; <em>&#1079;&#1110; &#1089;&#1084;&#1072;&#1082;&#1086;&#1084;</em></p>
+        <div class="hero-ctas">
+          <a class="btn btn-main" href="https://acentoespanoll.adsquiz.io/?utm_source=website&amp;utm_medium=landing&amp;utm_content=hero" target="_blank" rel="noopener">&#1041;&#1077;&#1079;&#1082;&#1086;&#1096;&#1090;&#1086;&#1074;&#1085;&#1080;&#1081; &#1087;&#1088;&#1086;&#1073;&#1085;&#1080;&#1081; &#1091;&#1088;&#1086;&#1082; &#8594;</a>
+          <a class="btn btn-ghost" href="#format">&#1060;&#1086;&#1088;&#1084;&#1072;&#1090;&#1080; &#1081; &#1094;&#1110;&#1085;&#1080;</a>
+        </div>
+        <p class="hero-note"><span><b>&#1044;&#1086; 40 &#1093;&#1074;&#1080;&#1083;&#1080;&#1085; &#1091; Zoom</b> &#8212; &#1076;&#1086;&#1089;&#1090;&#1072;&#1090;&#1085;&#1100;&#1086;, &#1097;&#1086;&#1073; &#1079;&#1083;&#1086;&#1074;&#1080;&#1090;&#1080; &#1084;&#1077;&#1090;&#1095;</span></p>
+      </div>
+      <div class="hero-photo reveal">
+        <div class="stamp"><div class="stamp-frame">
+          <img src="img/hero.jpg" alt="&#1042;&#1080;&#1082;&#1083;&#1072;&#1076;&#1072;&#1095;&#1082;&#1072; acento.espanol" width="1100" height="1400">
+          <div class="stamp-label"><b>ACENTO</b><span>espa&#241;ol</span></div>
+        </div></div>
+        <img class="st st-cherry" src="img/st/cherries.webp" alt="">
+        <img class="st st-bow slow" src="img/st/bow.webp" alt="">
+      </div>
+    </div>
+  </section>
+
+  <div class="band" aria-hidden="true">
+    <div class="band-track">
+      <span>&#1074;&#1080;&#1084;&#1086;&#1074;&#1072;</span><span>&#1110;&#1085;&#1090;&#1086;&#1085;&#1072;&#1094;&#1110;&#1103;</span><span>&#1078;&#1080;&#1074;&#1072; &#1084;&#1086;&#1074;&#1072;</span><span>&#1082;&#1091;&#1083;&#1100;&#1090;&#1091;&#1088;&#1072; &#1030;&#1089;&#1087;&#1072;&#1085;&#1110;&#1111;</span><span>&#1088;&#1086;&#1079;&#1084;&#1086;&#1074;&#1085;&#1072; &#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1072;</span><span>&#1110;&#1085;&#1076;&#1080;&#1074;&#1110;&#1076;&#1091;&#1072;&#1083;&#1100;&#1085;&#1086; &#1072;&#1073;&#1086; &#1074; &#1087;&#1072;&#1088;&#1110;</span>
+      <span>&#1074;&#1080;&#1084;&#1086;&#1074;&#1072;</span><span>&#1110;&#1085;&#1090;&#1086;&#1085;&#1072;&#1094;&#1110;&#1103;</span><span>&#1078;&#1080;&#1074;&#1072; &#1084;&#1086;&#1074;&#1072;</span><span>&#1082;&#1091;&#1083;&#1100;&#1090;&#1091;&#1088;&#1072; &#1030;&#1089;&#1087;&#1072;&#1085;&#1110;&#1111;</span><span>&#1088;&#1086;&#1079;&#1084;&#1086;&#1074;&#1085;&#1072; &#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1072;</span><span>&#1110;&#1085;&#1076;&#1080;&#1074;&#1110;&#1076;&#1091;&#1072;&#1083;&#1100;&#1085;&#1086; &#1072;&#1073;&#1086; &#1074; &#1087;&#1072;&#1088;&#1110;</span>
+    </div>
+  </div>
+
+  <!-- 80% -->
+  <section>
+    <div class="wrap stat-grid">
+      <div class="arch reveal">
+        <img src="img/life.jpg" alt="&#1042;&#1080;&#1082;&#1083;&#1072;&#1076;&#1072;&#1095;&#1082;&#1072; acento.espanol" width="1050" height="1400">
+      </div>
+      <div class="reveal">
+        <div class="big">80%</div>
+        <p class="big-sub">&#1091;&#1088;&#1086;&#1082;&#1091; &#8212; <b>&#1088;&#1086;&#1079;&#1084;&#1086;&#1074;&#1085;&#1072; &#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1072;</b></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION -->
+  <section class="mission">
+    <img class="wm" src="img/mark-bordo.png" alt="">
+    <img class="st st-lily slow hide-m" src="img/st/lily.webp" alt="">
+    <div class="wrap reveal">
+      <div class="pre">&#180; &#1084;&#1110;&#1089;&#1110;&#1103; &#180;</div>
+      <blockquote>&#1030;&#1089;&#1087;&#1072;&#1085;&#1089;&#1100;&#1082;&#1072; &#8212; &#1094;&#1077; &#1085;&#1077; &#1087;&#1088;&#1086; &#1087;&#1088;&#1072;&#1074;&#1080;&#1083;&#1072;.<br>&#1062;&#1077; &#1087;&#1088;&#1086; <u>&#1083;&#1102;&#1073;&#1086;&#1074;</u>, &#1103;&#1082;&#1091; &#1095;&#1091;&#1090;&#1080; &#1074; &#1082;&#1086;&#1078;&#1085;&#1086;&#1084;&#1091; &#1089;&#1083;&#1086;&#1074;&#1110;</blockquote>
+      <svg class="swirl" viewBox="0 0 200 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 22c30-14 52-14 70 0s40 14 62-2c14-10 26-8 30 2 3 8-6 14-14 10s-4-16 10-18c10-2 22 2 34 8"/></svg>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section id="approach">
+    <div class="wrap">
+      <div class="reveal">
+        <span class="eyebrow">&#1087;&#1088;&#1086; &#1085;&#1072;&#1089;</span>
+        <h2>&#1040;&#1082;&#1094;&#1077;&#1085;&#1090; &#1085;&#1072; <span class="acc">&#1075;&#1086;&#1083;&#1086;&#1074;&#1085;&#1086;&#1084;&#1091;</span></h2>
+      </div>
+      <div class="cards">
+        <div class="card dark reveal">
+          <div class="ico">&#128172;</div>
+          <h3>&#1043;&#1086;&#1083;&#1086;&#1074;&#1085;&#1080;&#1081; &#1092;&#1086;&#1082;&#1091;&#1089; &#8212; &#1075;&#1086;&#1074;&#1086;&#1088;&#1110;&#1085;&#1085;&#1103;</h3>
+          <p>&#1041;&#1110;&#1083;&#1100;&#1096;&#1091; &#1095;&#1072;&#1089;&#1090;&#1080;&#1085;&#1091; &#1091;&#1088;&#1086;&#1082;&#1091; &#1084;&#1080; &#1087;&#1088;&#1080;&#1089;&#1074;&#1103;&#1095;&#1091;&#1108;&#1084;&#1086; &#1084;&#1086;&#1074;&#1085;&#1110;&#1081; &#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1094;&#1110;. &#1059;&#1078;&#1077; &#1085;&#1072; &#1087;&#1077;&#1088;&#1096;&#1086;&#1084;&#1091; &#1079;&#1072;&#1085;&#1103;&#1090;&#1090;&#1110; &#1074;&#1080; &#1089;&#1082;&#1072;&#1078;&#1077;&#1090;&#1077; &#1110;&#1089;&#1087;&#1072;&#1085;&#1089;&#1100;&#1082;&#1086;&#1102; &#1089;&#1074;&#1086;&#1111; &#1087;&#1077;&#1088;&#1096;&#1110; &#1088;&#1077;&#1095;&#1077;&#1085;&#1085;&#1103;.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico">&#128450;</div>
+          <h3>&#1059;&#1089;&#1110; &#1084;&#1072;&#1090;&#1077;&#1088;&#1110;&#1072;&#1083;&#1080; &#1074; Miro</h3>
+          <p>&#1050;&#1086;&#1078;&#1077;&#1085; &#1091;&#1095;&#1077;&#1085;&#1100; &#1084;&#1072;&#1108; &#1087;&#1077;&#1088;&#1089;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1091; &#1076;&#1086;&#1096;&#1082;&#1091; Miro &#1079; &#1091;&#1089;&#1110;&#1084;&#1072; &#1084;&#1072;&#1090;&#1077;&#1088;&#1110;&#1072;&#1083;&#1072;&#1084;&#1080; &#1091;&#1088;&#1086;&#1082;&#1110;&#1074;. &#1055;&#1086;&#1074;&#1077;&#1088;&#1090;&#1072;&#1081;&#1090;&#1077;&#1089;&#1103; &#1076;&#1086; &#1085;&#1080;&#1093; &#1073;&#1091;&#1076;&#1100;-&#1082;&#1086;&#1083;&#1080;, &#1082;&#1086;&#1083;&#1080; &#1074;&#1072;&#1084; &#1079;&#1088;&#1091;&#1095;&#1085;&#1086;: &#1091;&#1089;&#1077; &#1079;&#1110;&#1073;&#1088;&#1072;&#1085;&#1086; &#1074; &#1086;&#1076;&#1085;&#1086;&#1084;&#1091; &#1084;&#1110;&#1089;&#1094;&#1110;.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico">&#10024;</div>
+          <h3>&#1047;&#1088;&#1091;&#1095;&#1085;&#1072; &#1086;&#1088;&#1075;&#1072;&#1085;&#1110;&#1079;&#1072;&#1094;&#1110;&#1103; &#1085;&#1072;&#1074;&#1095;&#1072;&#1085;&#1085;&#1103;</h3>
+          <p>&#1053;&#1072; &#1085;&#1072;&#1096;&#1110;&#1081; &#1087;&#1083;&#1072;&#1090;&#1092;&#1086;&#1088;&#1084;&#1110; &#1108; &#1074;&#1089;&#1077; &#1085;&#1077;&#1086;&#1073;&#1093;&#1110;&#1076;&#1085;&#1077;, &#1090;&#1086;&#1078; &#1078;&#1086;&#1076;&#1085;&#1110; &#1076;&#1086;&#1076;&#1072;&#1090;&#1082;&#1086;&#1074;&#1110; &#1079;&#1072;&#1089;&#1090;&#1086;&#1089;&#1091;&#1085;&#1082;&#1080; &#1085;&#1077; &#1087;&#1086;&#1090;&#1088;&#1110;&#1073;&#1085;&#1110;:</p>
+          <ul><li>&#1082;&#1110;&#1083;&#1100;&#1082;&#1110;&#1089;&#1090;&#1100; &#1087;&#1088;&#1086;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1093; &#1091;&#1088;&#1086;&#1082;&#1110;&#1074;</li><li>&#1086;&#1087;&#1083;&#1072;&#1090;&#1072;</li><li>&#1079;&#1074;'&#1103;&#1079;&#1086;&#1082; &#1079; &#1074;&#1080;&#1082;&#1083;&#1072;&#1076;&#1072;&#1095;&#1077;&#1084;</li><li>&#1076;&#1086;&#1089;&#1090;&#1091;&#1087; &#1076;&#1086; &#1076;&#1086;&#1096;&#1082;&#1080; Miro</li><li>&#1087;&#1086;&#1089;&#1080;&#1083;&#1072;&#1085;&#1085;&#1103; &#1085;&#1072; Zoom</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMAT + PRICES -->
+  <section class="format on-blush" id="format">
+    <div class="wrap">
+      <div class="center reveal">
+        <span class="eyebrow">&#1092;&#1086;&#1088;&#1084;&#1072;&#1090;&#1080; &#1081; &#1094;&#1110;&#1085;&#1080;</span>
+        <h2>&#1054;&#1073;&#1077;&#1088;&#1110;&#1090;&#1100; <span class="acc">&#1089;&#1074;&#1110;&#1081;</span> &#1092;&#1086;&#1088;&#1084;&#1072;&#1090;</h2>
+        <div class="tabs" role="tablist">
+          <button class="tab" role="tab" aria-selected="true" aria-controls="p-solo" id="t-solo">&#128100; &#1030;&#1085;&#1076;&#1080;&#1074;&#1110;&#1076;&#1091;&#1072;&#1083;&#1100;&#1085;&#1086;</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="p-pair" id="t-pair">&#128101; &#1059; &#1087;&#1072;&#1088;&#1110;</button>
+        </div>
+        <p class="help">&#1054;&#1073;&#1080;&#1076;&#1074;&#1072; &#1092;&#1086;&#1088;&#1084;&#1072;&#1090;&#1080; &#1076;&#1072;&#1102;&#1090;&#1100; &#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;, &#1087;&#1088;&#1086;&#1089;&#1090;&#1086; &#1088;&#1110;&#1079;&#1085;&#1080;&#1084; &#1096;&#1083;&#1103;&#1093;&#1086;&#1084;. &#1053;&#1077; &#1079;&#1085;&#1072;&#1108;&#1090;&#1077;, &#1097;&#1086; &#1086;&#1073;&#1088;&#1072;&#1090;&#1080;? &#1044;&#1086;&#1087;&#1086;&#1084;&#1086;&#1078;&#1077;&#1084;&#1086; &#1085;&#1072; &#1087;&#1088;&#1086;&#1073;&#1085;&#1086;&#1084;&#1091; &#1091;&#1088;&#1086;&#1094;&#1110;.</p>
+      </div>
+
+      <div class="panel on" id="p-solo" role="tabpanel" aria-labelledby="t-solo">
+        <div class="panel-info">
+          <h3>1 &#1085;&#1072; 1 &#1079; &#1074;&#1080;&#1082;&#1083;&#1072;&#1076;&#1072;&#1095;&#1077;&#1084;</h3>
+          <div class="meta"><span>&#9201; 60 &#1093;&#1074;&#1080;&#1083;&#1080;&#1085;</span><span>&#128205; Zoom + Miro</span></div>
+          <p>&#1052;&#1072;&#1082;&#1089;&#1080;&#1084;&#1091;&#1084; &#1092;&#1086;&#1082;&#1091;&#1089;&#1091; &#1085;&#1072; &#1074;&#1072;&#1089;.</p>
+          <ul class="ticks"><li>&#1087;&#1086;&#1074;&#1085;&#1072; &#1091;&#1074;&#1072;&#1075;&#1072; &#1074;&#1080;&#1082;&#1083;&#1072;&#1076;&#1072;&#1095;&#1072;</li><li>&#1085;&#1072;&#1074;&#1095;&#1072;&#1085;&#1085;&#1103; &#1087;&#1110;&#1076; &#1074;&#1072;&#1096;&#1110; &#1094;&#1110;&#1083;&#1110; &#1090;&#1072; &#1090;&#1077;&#1084;&#1087;</li><li>&#1096;&#1074;&#1080;&#1076;&#1096;&#1080;&#1081; &#1087;&#1088;&#1086;&#1075;&#1088;&#1077;&#1089;</li></ul>
+        </div>
+        <div class="prices">
+          <div class="price"><span class="tag">&#1072;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090; &#183; 4 &#1091;&#1088;&#1086;&#1082;&#1080;</span><div class="amount">850 <small>&#1075;&#1088;&#1085; / &#1091;&#1088;&#1086;&#1082;</small></div><span class="per">&#1088;&#1072;&#1079;&#1086;&#1084; 3 400 &#1075;&#1088;&#1085;</span><a class="btn btn-ghost" href="https://acentoespanoll.adsquiz.io/?utm_source=website&amp;utm_medium=landing&amp;utm_content=price_solo4" target="_blank" rel="noopener">&#1055;&#1086;&#1095;&#1072;&#1090;&#1080; &#1079; &#1087;&#1088;&#1086;&#1073;&#1085;&#1086;&#1075;&#1086;</a></div>
+          <div class="price"><span class="tag">&#1072;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090; &#183; 8 &#1091;&#1088;&#1086;&#1082;&#1110;&#1074;</span><div class="amount">800 <small>&#1075;&#1088;&#1085; / &#1091;&#1088;&#1086;&#1082;</small></div><span class="per">&#1088;&#1072;&#1079;&#1086;&#1084; 6 400 &#1075;&#1088;&#1085;</span><a class="btn btn-ghost" href="https://acentoespanoll.adsquiz.io/?utm_source=website&amp;utm_medium=landing&amp;utm_content=price_solo8" target="_blank" rel="noopener">&#1055;&#1086;&#1095;&#1072;&#1090;&#1080; &#1079; &#1087;&#1088;&#1086;&#1073;&#1085;&#1086;&#1075;&#1086;</a></div>
+          <div class="price"><span class="tag">&#1072;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090; &#183; 16 &#1091;&#1088;&#1086;&#1082;&#1110;&#1074;</span><div class="amount">770 <small>&#1075;&#1088;&#1085; / &#1091;&#1088;&#1086;&#1082;</small></div><span class="per">&#1088;&#1072;&#1079;&#1086;&#1084; 12 320 &#1075;&#1088;&#1085;</span><span class="part">&#10003; &#1084;&#1086;&#1078;&#1085;&#1072; &#1086;&#1087;&#1083;&#1072;&#1090;&#1080;&#1090;&#1080; &#1095;&#1072;&#1089;&#1090;&#1080;&#1085;&#1072;&#1084;&#1080;</span><a class="btn btn-ghost" href="https://acentoespanoll.adsquiz.io/?utm_source=website&amp;utm_medium=landing&amp;utm_content=price_solo16" target="_blank" rel="noopener">&#1055;&#1086;&#1095;&#1072;&#1090;&#1080; &#1079; &#1087;&#1088;&#1086;&#1073;&#1085;&#1086;&#1075;&#1086;</a></div>
+          <div class="price hot"><span class="badge">&#1085;&#1072;&#1081;&#1074;&#1080;&#1075;&#1110;&#1076;&#1085;&#1110;&#1096;&#1077;</span><span class="tag">&#1072;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090; &#183; 32 &#1091;&#1088;&#1086;&#1082;&#1080;</span><div class="amount">750 <small>&#1075;&#1088;&#1085; / &#1091;&#1088;&#1086;&#1082;</small></div><span class="per">&#1088;&#1072;&#1079;&#1086;&#1084; 24 000 &#1075;&#1088;&#1085;</span><span class="part">&#10003; &#1084;&#1086;&#1078;&#1085;&#1072; &#1086;&#1087;&#1083;&#1072;&#1090;&#1080;&#1090;&#1080; &#1095;&#1072;&#1089;&#1090;&#1080;&#1085;&#1072;&#1084;&#1080;</span><a class="btn btn-light" href="https://acentoespanoll.adsquiz.io/?utm_source=website&amp;utm_medium=landing&amp;utm_content=price_solo32" target="_blank" rel="noopener">&#1055;&#1086;&#1095;&#1072;&#1090;&#1080; &#1079; &#1087;&#1088;&#1086;&#1073;&#1085;&#1086;&#1075;&#1086;</a></div>
+        </div>
+      </div>
+
+      <div class="panel" id="p-pair" role="tabpanel" aria-labelledby="t-pair">
+        <div class="panel-info">
+          <h3>&#1053;&#1072;&#1074;&#1095;&#1072;&#1085;&#1085;&#1103; &#1074; &#1087;&#1072;&#1088;&#1110;</h3>
+          <div class="meta"><span>&#9201; 60 &#1093;&#1074;&#1080;&#1083;&#1080;&#1085;</span><span>&#128205; Zoom + Miro</span></div>
+          <p>&#1047; &#1087;&#1086;&#1076;&#1088;&#1091;&#1075;&#1086;&#1102; &#1072;&#1073;&#1086; &#1110;&#1085;&#1096;&#1080;&#1084; &#1091;&#1095;&#1085;&#1077;&#1084;.</p>
+          <ul class="ticks"><li>&#1073;&#1110;&#1083;&#1100;&#1096;&#1077; &#1078;&#1080;&#1074;&#1086;&#1111; &#1088;&#1086;&#1079;&#1084;&#1086;&#1074;&#1080;</li><li>&#1083;&#1077;&#1075;&#1096;&#1077; &#1076;&#1086;&#1083;&#1072;&#1090;&#1080; &#1089;&#1090;&#1088;&#1072;&#1093; &#1075;&#1086;&#1074;&#1086;&#1088;&#1110;&#1085;&#1085;&#1103;</li><li>&#1076;&#1077;&#1096;&#1077;&#1074;&#1096;&#1077;, &#1085;&#1110;&#1078; &#1110;&#1085;&#1076;&#1080;&#1074;&#1110;&#1076;&#1091;&#1072;&#1083;&#1100;&#1085;&#1086;</li></ul>
+        </div>
+        <div class="prices">
+          <div class="price"><span class="tag">&#1072;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090; &#183; 4 &#1091;&#1088;&#1086;&#1082;&#1080;</span><div class="amount">550 <small>&#1075;&#1088;&#1085; / &#1091;&#1088;&#1086;&#1082; &#1079; &#1083;&#1102;&#1076;&#1080;&#1085;&#1080;</small></div><span class="per">&#1088;&#1072;&#1079;&#1086;&#1084; 2 200 &#1075;&#1088;&#1085;</span><a class="btn btn-ghost" href="https://acentoespanoll.adsquiz.io/?utm_source=website&amp;utm_medium=landing&amp;utm_content=price_pair4" target="_blank" rel="noopener">&#1055;&#1086;&#1095;&#1072;&#1090;&#1080; &#1079; &#1087;&#1088;&#1086;&#1073;&#1085;&#1086;&#1075;&#1086;</a></div>
+          <div class="price"><span class="tag">&#1072;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090; &#183; 8 &#1091;&#1088;&#1086;&#1082;&#1110;&#1074;</span><div class="amount">500 <small>&#1075;&#1088;&#1085; / &#1091;&#1088;&#1086;&#1082; &#1079; &#1083;&#1102;&#1076;&#1080;&#1085;&#1080;</small></div><span class="per">&#1088;&#1072;&#1079;&#1086;&#1084; 4 000 &#1075;&#1088;&#1085;</span><a class="btn btn-ghost" href="https://acentoespanoll.adsquiz.io/?utm_source=website&amp;utm_medium=landing&amp;utm_content=price_pair8" target="_blank" rel="noopener">&#1055;&#1086;&#1095;&#1072;&#1090;&#1080; &#1079; &#1087;&#1088;&#1086;&#1073;&#1085;&#1086;&#1075;&#1086;</a></div>
+          <div class="price"><span class="tag">&#1072;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090; &#183; 16 &#1091;&#1088;&#1086;&#1082;&#1110;&#1074;</span><div class="amount">470 <small>&#1075;&#1088;&#1085; / &#1091;&#1088;&#1086;&#1082; &#1079; &#1083;&#1102;&#1076;&#1080;&#1085;&#1080;</small></div><span class="per">&#1088;&#1072;&#1079;&#1086;&#1084; 7 520 &#1075;&#1088;&#1085;</span><span class="part">&#10003; &#1084;&#1086;&#1078;&#1085;&#1072; &#1086;&#1087;&#1083;&#1072;&#1090;&#1080;&#1090;&#1080; &#1095;&#1072;&#1089;&#1090;&#1080;&#1085;&#1072;&#1084;&#1080;</span><a class="btn btn-ghost" href="https://acentoespanoll.adsquiz.io/?utm_source=website&amp;utm_medium=landing&amp;utm_content=price_pair16" target="_blank" rel="noopener">&#1055;&#1086;&#1095;&#1072;&#1090;&#1080; &#1079; &#1087;&#1088;&#1086;&#1073;&#1085;&#1086;&#1075;&#1086;</a></div>
+          <div class="price hot"><span class="badge">&#1085;&#1072;&#1081;&#1074;&#1080;&#1075;&#1110;&#1076;&#1085;&#1110;&#1096;&#1077;</span><span class="tag">&#1072;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090; &#183; 32 &#1091;&#1088;&#1086;&#1082;&#1080;</span><div class="amount">450 <small>&#1075;&#1088;&#1085; / &#1091;&#1088;&#1086;&#1082; &#1079; &#1083;&#1102;&#1076;&#1080;&#1085;&#1080;</small></div><span class="per">&#1088;&#1072;&#1079;&#1086;&#1084; 14 400 &#1075;&#1088;&#1085;</span><span class="part">&#10003; &#1084;&#1086;&#1078;&#1085;&#1072; &#1086;&#1087;&#1083;&#1072;&#1090;&#1080;&#1090;&#1080; &#1095;&#1072;&#1089;&#1090;&#1080;&#1085;&#1072;&#1084;&#1080;</span><a class="btn btn-light" href="https://acentoespanoll.adsquiz.io/?utm_source=website&amp;utm_medium=landing&amp;utm_content=price_pair32" target="_blank" rel="noopener">&#1055;&#1086;&#1095;&#1072;&#1090;&#1080; &#1079; &#1087;&#1088;&#1086;&#1073;&#1085;&#1086;&#1075;&#1086;</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRIAL -->
+  <section id="trial">
+    <div class="wrap">
+      <div class="trial-box reveal">
+        <img class="st st-card" src="img/st/card.webp" alt="">
+        <div>
+          <span class="eyebrow">&#1087;&#1086;&#1095;&#1085;&#1110;&#1090;&#1100; &#1079; &#1094;&#1100;&#1086;&#1075;&#1086;</span>
+          <h2>&#1041;&#1077;&#1079;&#1082;&#1086;&#1096;&#1090;&#1086;&#1074;&#1085;&#1080;&#1081; <span class="acc">&#1087;&#1088;&#1086;&#1073;&#1085;&#1080;&#1081;</span> &#1091;&#1088;&#1086;&#1082;</h2>
+          <p class="lead">&#1044;&#1086; 40 &#1093;&#1074;&#1080;&#1083;&#1080;&#1085; &#1091; Zoom &#1073;&#1077;&#1079; &#1079;&#1086;&#1073;&#1086;&#1074;'&#1103;&#1079;&#1072;&#1085;&#1100;. &#1055;&#1088;&#1086;&#1089;&#1090;&#1086; &#1089;&#1087;&#1088;&#1086;&#1073;&#1091;&#1081;&#1090;&#1077; &#1081; &#1079;&#1088;&#1086;&#1079;&#1091;&#1084;&#1110;&#1081;&#1090;&#1077;, &#1095;&#1080; &#1074;&#1072;&#1084; &#1087;&#1110;&#1076;&#1093;&#1086;&#1076;&#1080;&#1090;&#1100;.</p>
+          <a class="btn btn-light" href="https://acentoespanoll.adsquiz.io/?utm_source=website&amp;utm_medium=landing&amp;utm_content=trial" target="_blank" rel="noopener">&#1047;&#1072;&#1087;&#1080;&#1089;&#1072;&#1090;&#1080;&#1089;&#1103; &#8594;</a>
+        </div>
+        <div class="steps">
+          <div class="step"><div class="n">1</div><div><h3>&#1047;&#1085;&#1072;&#1081;&#1086;&#1084;&#1089;&#1090;&#1074;&#1086; &#1079; &#1074;&#1080;&#1082;&#1083;&#1072;&#1076;&#1072;&#1095;&#1077;&#1084;</h3><p>&#1056;&#1086;&#1079;&#1082;&#1072;&#1078;&#1077;&#1090;&#1077; &#1087;&#1088;&#1086; &#1089;&#1074;&#1086;&#1111; &#1094;&#1110;&#1083;&#1110; &#1090;&#1072; &#1076;&#1086;&#1089;&#1074;&#1110;&#1076; &#1079; &#1084;&#1086;&#1074;&#1086;&#1102;.</p></div></div>
+          <div class="step"><div class="n">2</div><div><h3>&#1071;&#1082; &#1087;&#1088;&#1086;&#1093;&#1086;&#1076;&#1103;&#1090;&#1100; &#1091;&#1088;&#1086;&#1082;&#1080;</h3><p>&#1055;&#1086;&#1082;&#1072;&#1078;&#1077;&#1084;&#1086; &#1085;&#1072;&#1096; &#1087;&#1110;&#1076;&#1093;&#1110;&#1076;, &#1076;&#1086;&#1096;&#1082;&#1091; Miro &#1090;&#1072; &#1084;&#1072;&#1090;&#1077;&#1088;&#1110;&#1072;&#1083;&#1080;.</p></div></div>
+          <div class="step"><div class="n">3</div><div><h3>&#1042;&#1072;&#1096; &#1092;&#1086;&#1088;&#1084;&#1072;&#1090;</h3><p>&#1056;&#1072;&#1079;&#1086;&#1084; &#1086;&#1073;&#1077;&#1088;&#1077;&#1084;&#1086;: &#1110;&#1085;&#1076;&#1080;&#1074;&#1110;&#1076;&#1091;&#1072;&#1083;&#1100;&#1085;&#1086; &#1095;&#1080; &#1074; &#1087;&#1072;&#1088;&#1110;.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE -->
+  <section class="on-blush" id="case">
+    <div class="wrap">
+      <div class="center reveal">
+        <span class="eyebrow">&#1082;&#1077;&#1081;&#1089; &#1091;&#1095;&#1077;&#1085;&#1080;&#1094;&#1110;</span>
+        <h2>&#1042;&#1110;&#1076; &#1079;&#1072;&#1087;&#1080;&#1090;&#1091; &#1076;&#1086; <span class="acc">&#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1091;</span></h2>
+      </div>
+      <div class="case-card reveal">
+        <div class="case-photo">
+          <img src="img/yana.jpg" alt="&#1071;&#1085;&#1072;, &#1091;&#1095;&#1077;&#1085;&#1080;&#1094;&#1103; &#1096;&#1082;&#1086;&#1083;&#1080; acento.espanol" loading="lazy">
+          <div class="name"><b>&#1071;&#1085;&#1072;</b><span>&#1091;&#1095;&#1077;&#1085;&#1080;&#1094;&#1103; &#1096;&#1082;&#1086;&#1083;&#1080; Acento</span></div>
+        </div>
+        <div>
+          <p class="case-quote">&#171;&#1055;&#1110;&#1089;&#1083;&#1103; &#1085;&#1072;&#1096;&#1080;&#1093; &#1091;&#1088;&#1086;&#1082;&#1110;&#1074; &#1103; &#1087;&#1086;&#1095;&#1091;&#1074;&#1072;&#1083;&#1072; &#1089;&#1077;&#1073;&#1077; &#1076;&#1091;&#1078;&#1077; &#1082;&#1083;&#1072;&#1089;&#1085;&#1086; &#1074; &#1030;&#1089;&#1087;&#1072;&#1085;&#1110;&#1111;&#187;</p>
+          <div class="case-flow">
+            <div class="case-step"><span class="lbl">&#1047;&#1072;&#1087;&#1080;&#1090;</span><p>&#1056;&#1086;&#1079;&#1091;&#1084;&#1110;&#1083;&#1072; &#1110;&#1089;&#1087;&#1072;&#1085;&#1089;&#1100;&#1082;&#1091;, &#1079;&#1085;&#1072;&#1083;&#1072; &#1073;&#1072;&#1079;&#1086;&#1074;&#1091; &#1075;&#1088;&#1072;&#1084;&#1072;&#1090;&#1080;&#1082;&#1091; &#1090;&#1072; &#1084;&#1072;&#1083;&#1072; &#1076;&#1086;&#1089;&#1090;&#1072;&#1090;&#1085;&#1110;&#1081; &#1089;&#1083;&#1086;&#1074;&#1085;&#1080;&#1082;&#1086;&#1074;&#1080;&#1081; &#1079;&#1072;&#1087;&#1072;&#1089;. &#1040;&#1083;&#1077; &#1097;&#1086;&#1081;&#1085;&#1086; &#1090;&#1088;&#1077;&#1073;&#1072; &#1073;&#1091;&#1083;&#1086; &#1079;&#1072;&#1075;&#1086;&#1074;&#1086;&#1088;&#1080;&#1090;&#1080;, &#1089;&#1083;&#1086;&#1074;&#1072; &#1079;&#1072;&#1073;&#1091;&#1074;&#1072;&#1083;&#1080;&#1089;&#1103; &#1072;&#1073;&#1086; &#1087;&#1083;&#1091;&#1090;&#1072;&#1083;&#1080;&#1089;&#1103; &#1074; &#1088;&#1077;&#1095;&#1077;&#1085;&#1085;&#1110;.</p></div>
+            <div class="case-step"><span class="lbl">&#1065;&#1086; &#1088;&#1086;&#1073;&#1080;&#1083;&#1080;</span><ul><li>&#1088;&#1086;&#1079;&#1073;&#1080;&#1088;&#1072;&#1083;&#1080; &#1088;&#1077;&#1072;&#1083;&#1100;&#1085;&#1110; &#1089;&#1080;&#1090;&#1091;&#1072;&#1094;&#1110;&#1111; &#1079; &#1078;&#1080;&#1090;&#1090;&#1103;</li><li>&#1074;&#1095;&#1080;&#1083;&#1080; &#1075;&#1086;&#1090;&#1086;&#1074;&#1110; &#1084;&#1086;&#1074;&#1085;&#1110; &#1082;&#1086;&#1085;&#1089;&#1090;&#1088;&#1091;&#1082;&#1094;&#1110;&#1111;</li><li>&#1074;&#1095;&#1080;&#1083;&#1080;&#1089;&#1103; &#1088;&#1077;&#1072;&#1075;&#1091;&#1074;&#1072;&#1090;&#1080; &#1073;&#1077;&#1079; &#1076;&#1086;&#1074;&#1075;&#1080;&#1093; &#1088;&#1086;&#1079;&#1076;&#1091;&#1084;&#1110;&#1074;</li></ul></div>
+            <div class="case-step b"><span class="lbl">&#1056;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;</span><p>&#1055;&#1086;&#1095;&#1072;&#1083;&#1072; &#1075;&#1086;&#1074;&#1086;&#1088;&#1080;&#1090;&#1080; &#1074;&#1087;&#1077;&#1074;&#1085;&#1077;&#1085;&#1110;&#1096;&#1077;, &#1089;&#1074;&#1110;&#1076;&#1086;&#1084;&#1086; &#1090;&#1072; &#1096;&#1074;&#1080;&#1076;&#1082;&#1086; &#1092;&#1086;&#1088;&#1084;&#1091;&#1083;&#1102;&#1074;&#1072;&#1090;&#1080; &#1076;&#1091;&#1084;&#1082;&#1080;, &#1074;&#1080;&#1082;&#1086;&#1088;&#1080;&#1089;&#1090;&#1086;&#1074;&#1091;&#1074;&#1072;&#1090;&#1080; &#1110;&#1089;&#1087;&#1072;&#1085;&#1089;&#1100;&#1082;&#1091; &#1087;&#1086;&#1079;&#1072; &#1079;&#1072;&#1085;&#1103;&#1090;&#1090;&#1103;&#1084;&#1080; &#1081; &#1074;&#1077;&#1089;&#1090;&#1080; &#1076;&#1110;&#1072;&#1083;&#1086;&#1075; &#1079; &#1085;&#1086;&#1089;&#1110;&#1103;&#1084;&#1080; &#1074; &#1030;&#1089;&#1087;&#1072;&#1085;&#1110;&#1111;.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap faq-grid">
+      <div class="faq-side reveal">
+        <span class="eyebrow">&#1087;&#1080;&#1090;&#1072;&#1085;&#1085;&#1103; &#1081; &#1074;&#1110;&#1076;&#1087;&#1086;&#1074;&#1110;&#1076;&#1110;</span>
+        <h2>&#1063;&#1072;&#1089;&#1090;&#1110; <span class="acc">&#1087;&#1080;&#1090;&#1072;&#1085;&#1085;&#1103;</span></h2>
+        <p>&#1053;&#1077; &#1079;&#1085;&#1072;&#1081;&#1096;&#1083;&#1080; &#1074;&#1110;&#1076;&#1087;&#1086;&#1074;&#1110;&#1076;&#1100;? &#1053;&#1072;&#1087;&#1080;&#1096;&#1110;&#1090;&#1100; &#1085;&#1072;&#1084; &#1091; Direct &#1072;&#1073;&#1086; &#1087;&#1088;&#1086;&#1089;&#1090;&#1086; &#1087;&#1088;&#1080;&#1093;&#1086;&#1076;&#1100;&#1090;&#1077; &#1085;&#1072; &#1087;&#1088;&#1086;&#1073;&#1085;&#1080;&#1081; &#1091;&#1088;&#1086;&#1082;.</p>
+        <a class="btn btn-main" href="https://acentoespanoll.adsquiz.io/?utm_source=website&amp;utm_medium=landing&amp;utm_content=faq" target="_blank" rel="noopener">&#1057;&#1087;&#1088;&#1086;&#1073;&#1091;&#1074;&#1072;&#1090;&#1080; &#1087;&#1088;&#1086;&#1073;&#1085;&#1080;&#1081; &#1091;&#1088;&#1086;&#1082; &#8594;</a>
+        <img class="st st-sun" src="img/st/sunglasses.webp" alt="">
+      </div>
+      <div class="reveal">
+        <details open><summary>&#1063;&#1080; &#1108; &#1091; &#1074;&#1072;&#1089; &#1087;&#1088;&#1086;&#1073;&#1085;&#1080;&#1081; &#1091;&#1088;&#1086;&#1082; &#1110; &#1103;&#1082; &#1074;&#1110;&#1085; &#1087;&#1088;&#1086;&#1093;&#1086;&#1076;&#1080;&#1090;&#1100;?</summary><div class="ans">&#1058;&#1072;&#1082;! &#1055;&#1088;&#1086;&#1073;&#1085;&#1077; &#1079;&#1072;&#1085;&#1103;&#1090;&#1090;&#1103; &#1074; Zoom (&#1076;&#1086; 40 &#1093;&#1074;&#1080;&#1083;&#1080;&#1085;) &#1076;&#1086;&#1087;&#1086;&#1084;&#1072;&#1075;&#1072;&#1108; &#1079;&#1088;&#1086;&#1079;&#1091;&#1084;&#1110;&#1090;&#1080;, &#1103;&#1082; &#1087;&#1088;&#1086;&#1093;&#1086;&#1076;&#1103;&#1090;&#1100; &#1091;&#1088;&#1086;&#1082;&#1080;, &#1087;&#1086;&#1079;&#1085;&#1072;&#1081;&#1086;&#1084;&#1080;&#1090;&#1080;&#1089;&#1103; &#1079; &#1074;&#1080;&#1082;&#1083;&#1072;&#1076;&#1072;&#1095;&#1077;&#1084; &#1110; &#1074;&#1110;&#1076;&#1095;&#1091;&#1090;&#1080; &#1092;&#1086;&#1088;&#1084;&#1072;&#1090; &#1085;&#1072;&#1074;&#1095;&#1072;&#1085;&#1085;&#1103;. &#1041;&#1077;&#1079; &#1079;&#1086;&#1073;&#1086;&#1074;'&#1103;&#1079;&#1072;&#1085;&#1100;: &#1087;&#1088;&#1086;&#1089;&#1090;&#1086; &#1089;&#1087;&#1088;&#1086;&#1073;&#1091;&#1081;&#1090;&#1077; &#1081; &#1074;&#1080;&#1088;&#1110;&#1096;&#1110;&#1090;&#1100;, &#1095;&#1080; &#1074;&#1072;&#1084; &#1087;&#1110;&#1076;&#1093;&#1086;&#1076;&#1080;&#1090;&#1100;.</div></details>
+        <details><summary>&#1047; &#1103;&#1082;&#1086;&#1075;&#1086; &#1088;&#1110;&#1074;&#1085;&#1103; &#1084;&#1086;&#1078;&#1085;&#1072; &#1087;&#1086;&#1095;&#1072;&#1090;&#1080; &#1085;&#1072;&#1074;&#1095;&#1072;&#1085;&#1085;&#1103;?</summary><div class="ans">&#1047; &#1085;&#1091;&#1083;&#1103; (A0) &#1072;&#1073;&#1086; &#1079; &#1073;&#1091;&#1076;&#1100;-&#1103;&#1082;&#1086;&#1075;&#1086; &#1110;&#1085;&#1096;&#1086;&#1075;&#1086; &#1088;&#1110;&#1074;&#1085;&#1103;: &#1084;&#1080; &#1087;&#1110;&#1076;&#1073;&#1077;&#1088;&#1077;&#1084;&#1086; &#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1091; &#1087;&#1110;&#1076; &#1074;&#1072;&#1089;.</div></details>
+        <details><summary>&#1063;&#1080; &#1073;&#1091;&#1076;&#1091; &#1103; &#1075;&#1086;&#1074;&#1086;&#1088;&#1080;&#1090;&#1080; &#1079; &#1087;&#1077;&#1088;&#1096;&#1086;&#1075;&#1086; &#1079;&#1072;&#1085;&#1103;&#1090;&#1090;&#1103;?</summary><div class="ans"><b>&#161;S&#237;, claro!</b> &#1062;&#1077; &#1110; &#1108; &#1085;&#1072;&#1096;&#1072; &#1094;&#1110;&#1083;&#1100;. &#1042;&#1080; &#1085;&#1077; &#1087;&#1088;&#1086;&#1089;&#1090;&#1086; &#1089;&#1083;&#1091;&#1093;&#1072;&#1108;&#1090;&#1077; &#1087;&#1088;&#1072;&#1074;&#1080;&#1083;&#1072;, &#1072; &#1086;&#1076;&#1088;&#1072;&#1079;&#1091; &#1087;&#1086;&#1095;&#1080;&#1085;&#1072;&#1108;&#1090;&#1077; &#1075;&#1086;&#1074;&#1086;&#1088;&#1080;&#1090;&#1080;. &#1053;&#1072;&#1074;&#1110;&#1090;&#1100; &#1103;&#1082;&#1097;&#1086; &#1074;&#1080; &#1079; &#1085;&#1091;&#1083;&#1103;, &#1084;&#1080; &#1073;&#1091;&#1076;&#1091;&#1108;&#1084;&#1086; &#1092;&#1088;&#1072;&#1079;&#1080; &#1090;&#1072;&#1082;, &#1097;&#1086;&#1073; &#1091;&#1078;&#1077; &#1085;&#1072; &#1087;&#1077;&#1088;&#1096;&#1086;&#1084;&#1091; &#1091;&#1088;&#1086;&#1094;&#1110; &#1074;&#1080; &#1079;&#1084;&#1086;&#1075;&#1083;&#1080; &#1097;&#1086;&#1089;&#1100; &#1089;&#1082;&#1072;&#1079;&#1072;&#1090;&#1080; &#1081; &#1074;&#1110;&#1076;&#1095;&#1091;&#1090;&#1080; &#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;.</div></details>
+        <details><summary>&#1057;&#1082;&#1110;&#1083;&#1100;&#1082;&#1080; &#1090;&#1088;&#1080;&#1074;&#1072;&#1108; &#1091;&#1088;&#1086;&#1082; &#1110; &#1076;&#1077; &#1074;&#1110;&#1085; &#1087;&#1088;&#1086;&#1093;&#1086;&#1076;&#1080;&#1090;&#1100;?</summary><div class="ans">&#1059;&#1088;&#1086;&#1082; &#1090;&#1088;&#1080;&#1074;&#1072;&#1108; 1 &#1075;&#1086;&#1076;&#1080;&#1085;&#1091; &#1081; &#1087;&#1088;&#1086;&#1093;&#1086;&#1076;&#1080;&#1090;&#1100; &#1091; Zoom. &#1052;&#1080; &#1087;&#1088;&#1072;&#1094;&#1102;&#1108;&#1084;&#1086; &#1085;&#1072; &#1110;&#1085;&#1090;&#1077;&#1088;&#1072;&#1082;&#1090;&#1080;&#1074;&#1085;&#1110;&#1081; &#1087;&#1083;&#1072;&#1090;&#1092;&#1086;&#1088;&#1084;&#1110; Miro, &#1076;&#1077; &#1074; &#1082;&#1086;&#1078;&#1085;&#1086;&#1075;&#1086; &#1091;&#1095;&#1085;&#1103; &#1108; &#1089;&#1074;&#1086;&#1103; &#1087;&#1077;&#1088;&#1089;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1072; &#1076;&#1086;&#1096;&#1082;&#1072; &#1079; &#1091;&#1089;&#1110;&#1084;&#1072; &#1084;&#1072;&#1090;&#1077;&#1088;&#1110;&#1072;&#1083;&#1072;&#1084;&#1080;.</div></details>
+        <details><summary>&#1063;&#1080; &#1073;&#1072;&#1075;&#1072;&#1090;&#1086; &#1076;&#1086;&#1084;&#1072;&#1096;&#1085;&#1110;&#1093; &#1079;&#1072;&#1074;&#1076;&#1072;&#1085;&#1100;?</summary><div class="ans">&#1028;, &#1072;&#1083;&#1077; &#1073;&#1077;&#1079; &#1087;&#1077;&#1088;&#1077;&#1074;&#1072;&#1085;&#1090;&#1072;&#1078;&#1077;&#1085;&#1085;&#1103;. &#1044;&#1072;&#1108;&#1084;&#1086; &#1090;&#1110;&#1083;&#1100;&#1082;&#1080; &#1090;&#1077;, &#1097;&#1086; &#1089;&#1087;&#1088;&#1072;&#1074;&#1076;&#1110; &#1076;&#1086;&#1087;&#1086;&#1084;&#1072;&#1075;&#1072;&#1108; &#1079;&#1072;&#1082;&#1088;&#1110;&#1087;&#1080;&#1090;&#1080; &#1090;&#1077;&#1084;&#1091; &#1081; &#1087;&#1086;&#1095;&#1072;&#1090;&#1080; &#1074;&#1080;&#1082;&#1086;&#1088;&#1080;&#1089;&#1090;&#1086;&#1074;&#1091;&#1074;&#1072;&#1090;&#1080; &#1084;&#1086;&#1074;&#1091; &#1074; &#1078;&#1080;&#1090;&#1090;&#1110;. &#1062;&#1077; &#1082;&#1086;&#1088;&#1086;&#1090;&#1082;&#1072; &#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1072;, &#1103;&#1082;&#1072; &#1076;&#1072;&#1108; &#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090; &#1110; &#1085;&#1077; &#1079;&#1072;&#1073;&#1080;&#1088;&#1072;&#1108; &#1074;&#1077;&#1089;&#1100; &#1074;&#1072;&#1096; &#1095;&#1072;&#1089;.</div></details>
+        <details><summary>&#1071;&#1082; &#1074;&#1110;&#1076;&#1073;&#1091;&#1074;&#1072;&#1108;&#1090;&#1100;&#1089;&#1103; &#1086;&#1087;&#1083;&#1072;&#1090;&#1072;?</summary><div class="ans">&#1055;&#1110;&#1089;&#1083;&#1103; &#1090;&#1086;&#1075;&#1086; &#1103;&#1082; &#1084;&#1080; &#1091;&#1079;&#1075;&#1086;&#1076;&#1080;&#1084;&#1086; &#1074;&#1072;&#1096; &#1092;&#1086;&#1088;&#1084;&#1072;&#1090;, &#1085;&#1072;&#1076;&#1089;&#1080;&#1083;&#1072;&#1108;&#1084;&#1086; &#1076;&#1077;&#1090;&#1072;&#1083;&#1110; &#1086;&#1087;&#1083;&#1072;&#1090;&#1080;. &#1059; &#1096;&#1082;&#1086;&#1083;&#1110; &#1076;&#1110;&#1108; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1072; &#1072;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090;&#1110;&#1074; &#1085;&#1072; 4, 8, 16 &#1072;&#1073;&#1086; 32 &#1091;&#1088;&#1086;&#1082;&#1080;. &#1040;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090;&#1080; &#1085;&#1072; 16 &#1110; 32 &#1091;&#1088;&#1086;&#1082;&#1080; &#1084;&#1086;&#1078;&#1085;&#1072; &#1086;&#1087;&#1083;&#1072;&#1090;&#1080;&#1090;&#1080; &#1095;&#1072;&#1089;&#1090;&#1080;&#1085;&#1072;&#1084;&#1080;.</div></details>
+        <details><summary>&#1065;&#1086; &#1086;&#1073;&#1088;&#1072;&#1090;&#1080;: &#1110;&#1085;&#1076;&#1080;&#1074;&#1110;&#1076;&#1091;&#1072;&#1083;&#1100;&#1085;&#1086; &#1095;&#1080; &#1074; &#1087;&#1072;&#1088;&#1110;?</summary><div class="ans">&#1030;&#1085;&#1076;&#1080;&#1074;&#1110;&#1076;&#1091;&#1072;&#1083;&#1100;&#1085;&#1110; &#1079;&#1072;&#1085;&#1103;&#1090;&#1090;&#1103; &#1076;&#1072;&#1102;&#1090;&#1100; &#1084;&#1072;&#1082;&#1089;&#1080;&#1084;&#1091;&#1084; &#1092;&#1086;&#1082;&#1091;&#1089;&#1091; &#1085;&#1072; &#1074;&#1072;&#1089;, &#1087;&#1072;&#1088;&#1085;&#1110; &#8212; &#1073;&#1110;&#1083;&#1100;&#1096;&#1077; &#1088;&#1086;&#1079;&#1084;&#1086;&#1074;&#1085;&#1086;&#1111; &#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1080; &#1090;&#1072; &#1074;&#1079;&#1072;&#1108;&#1084;&#1086;&#1076;&#1110;&#1111;. &#1052;&#1080; &#1076;&#1086;&#1087;&#1086;&#1084;&#1086;&#1078;&#1077;&#1084;&#1086; &#1087;&#1110;&#1076;&#1110;&#1073;&#1088;&#1072;&#1090;&#1080; &#1092;&#1086;&#1088;&#1084;&#1072;&#1090; &#1087;&#1110;&#1076; &#1074;&#1072;&#1096;&#1110; &#1094;&#1110;&#1083;&#1110;, &#1088;&#1110;&#1074;&#1077;&#1085;&#1100; &#1110; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088; &#1085;&#1072;&#1074;&#1095;&#1072;&#1085;&#1085;&#1103;.</div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section class="on-blush" id="insta">
+    <div class="wrap">
+      <div class="center reveal">
+        <span class="eyebrow">instagram</span>
+        <h2>&#1041;&#1110;&#1083;&#1100;&#1096;&#1077; &#1030;&#1089;&#1087;&#1072;&#1085;&#1110;&#1111; &#8212; <span class="acc">&#1091; &#1073;&#1083;&#1086;&#1079;&#1110;</span></h2>
+      </div>
+      <div class="insta-grid">
+        <a class="post reveal" href="https://www.instagram.com/acento.espanol" target="_blank" rel="noopener"><img src="img/ig-formats.jpg" alt="&#1071;&#1082;&#1110; &#1092;&#1086;&#1088;&#1084;&#1072;&#1090;&#1080; &#1085;&#1072;&#1074;&#1095;&#1072;&#1085;&#1085;&#1103; &#1084;&#1080; &#1087;&#1088;&#1086;&#1087;&#1086;&#1085;&#1091;&#1108;&#1084;&#1086;"></a>
+        <a class="post reveal" href="https://www.instagram.com/acento.espanol" target="_blank" rel="noopener"><img src="img/ig-task.jpg" alt="&#1053;&#1072;&#1096;&#1077; &#1079;&#1072;&#1074;&#1076;&#1072;&#1085;&#1085;&#1103;"></a>
+        <a class="post reveal" href="https://www.instagram.com/acento.espanol" target="_blank" rel="noopener"><img src="img/ig-solo.jpg" alt="&#1055;&#1077;&#1088;&#1077;&#1074;&#1072;&#1075;&#1080; &#1110;&#1085;&#1076;&#1080;&#1074;&#1110;&#1076;&#1091;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1092;&#1086;&#1088;&#1084;&#1072;&#1090;&#1091;"></a>
+        <a class="post reveal" href="https://www.instagram.com/acento.espanol" target="_blank" rel="noopener"><img src="img/ig-choose.jpg" alt="&#1053;&#1077; &#1079;&#1085;&#1072;&#1108;&#1096;, &#1097;&#1086; &#1086;&#1073;&#1088;&#1072;&#1090;&#1080;?"></a>
+      </div>
+      <div class="insta-cta reveal"><a class="btn btn-main" href="https://www.instagram.com/acento.espanol" target="_blank" rel="noopener">&#1063;&#1080;&#1090;&#1072;&#1090;&#1080; &#1073;&#1110;&#1083;&#1100;&#1096;&#1077; &#1074; Instagram @acento.espanol &#8594;</a></div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team">
+    <div class="wrap team-box">
+      <div class="reveal">
+        <span class="eyebrow">&#1074;&#1072;&#1082;&#1072;&#1085;&#1089;&#1110;&#1111;</span>
+        <h2>&#1053;&#1072;&#1096;&#1072; &#1096;&#1082;&#1086;&#1083;&#1072; <span class="acc">&#1088;&#1086;&#1089;&#1090;&#1077;</span></h2>
+        <p class="lead" style="margin-top:12px">&#1052;&#1080; &#1074;&#1110;&#1076;&#1082;&#1088;&#1080;&#1074;&#1072;&#1108;&#1084;&#1086; &#1085;&#1072;&#1073;&#1110;&#1088; &#1091; &#1082;&#1086;&#1084;&#1072;&#1085;&#1076;&#1091; &#1074;&#1080;&#1082;&#1083;&#1072;&#1076;&#1072;&#1095;&#1110;&#1074; &#1110;&#1089;&#1087;&#1072;&#1085;&#1089;&#1100;&#1082;&#1086;&#1111; &#1084;&#1086;&#1074;&#1080;.</p>
+        <div class="about-school"><span>&#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090; &#1091;&#1095;&#1085;&#1110;&#1074;</span><span>&#1078;&#1080;&#1074;&#1077; &#1089;&#1087;&#1110;&#1083;&#1082;&#1091;&#1074;&#1072;&#1085;&#1085;&#1103;</span><span>&#1089;&#1091;&#1095;&#1072;&#1089;&#1085;&#1080;&#1081; &#1087;&#1110;&#1076;&#1093;&#1110;&#1076; &#1076;&#1086; &#1074;&#1080;&#1082;&#1083;&#1072;&#1076;&#1072;&#1085;&#1085;&#1103;</span></div>
+        <div class="gets">
+          <div>&#1089;&#1090;&#1072;&#1073;&#1110;&#1083;&#1100;&#1085;&#1080;&#1081; &#1087;&#1086;&#1090;&#1110;&#1082; &#1091;&#1095;&#1085;&#1110;&#1074;</div><div>&#1087;&#1086;&#1074;&#1085;&#1110;&#1089;&#1090;&#1102; &#1086;&#1085;&#1083;&#1072;&#1081;&#1085;-&#1092;&#1086;&#1088;&#1084;&#1072;&#1090;</div>
+          <div class="wide">&#1075;&#1086;&#1090;&#1086;&#1074;&#1110; &#1072;&#1074;&#1090;&#1086;&#1088;&#1089;&#1100;&#1082;&#1110; &#1084;&#1077;&#1090;&#1086;&#1076;&#1080;&#1095;&#1085;&#1110; &#1084;&#1072;&#1090;&#1077;&#1088;&#1110;&#1072;&#1083;&#1080;</div>
+          <div>&#1075;&#1085;&#1091;&#1095;&#1082;&#1080;&#1081; &#1075;&#1088;&#1072;&#1092;&#1110;&#1082;</div><div>&#1076;&#1088;&#1091;&#1078;&#1085;&#1103; &#1082;&#1086;&#1084;&#1072;&#1085;&#1076;&#1072;</div>
+        </div>
+        <p class="love">&#1071;&#1082;&#1097;&#1086; &#1074;&#1080; &#1083;&#1102;&#1073;&#1080;&#1090;&#1077; &#1074;&#1080;&#1082;&#1083;&#1072;&#1076;&#1072;&#1090;&#1080; &#1081; &#1088;&#1086;&#1073;&#1080;&#1090;&#1077; &#1072;&#1082;&#1094;&#1077;&#1085;&#1090; &#1085;&#1072; &#1097;&#1080;&#1088;&#1110;&#1081; &#1083;&#1102;&#1073;&#1086;&#1074;&#1110; &#1076;&#1086; &#1091;&#1095;&#1085;&#1110;&#1074;, &#1074;&#1072;&#1084; &#1076;&#1086; &#1085;&#1072;&#1089;.</p>
+        <a class="btn btn-main" href="https://ig.me/m/acento.espanol" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>
+          &#1053;&#1072;&#1087;&#1080;&#1089;&#1072;&#1090;&#1080; &#1074; Direct
+        </a>
+      </div>
+      <div class="team-photo reveal">
+        <img src="img/casual.jpg" alt="&#1050;&#1086;&#1084;&#1072;&#1085;&#1076;&#1072; acento.espanol" loading="lazy">
+        <span class="bienv">&#161;Bienvenidos!</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section class="final">
+    <div class="wrap reveal">
+      <img class="mark" src="img/mark-cream.png" alt="">
+      <h2>&#1055;&#1086;&#1095;&#1085;&#1110;&#1090;&#1100; &#1079; <span class="acc">&#1073;&#1077;&#1079;&#1082;&#1086;&#1096;&#1090;&#1086;&#1074;&#1085;&#1086;&#1075;&#1086;</span> &#1091;&#1088;&#1086;&#1082;&#1091;</h2>
+      <p>&#1044;&#1086; 40 &#1093;&#1074;&#1080;&#1083;&#1080;&#1085; &#1091; Zoom, &#1097;&#1086;&#1073; &#1087;&#1086;&#1079;&#1085;&#1072;&#1081;&#1086;&#1084;&#1080;&#1090;&#1080;&#1089;&#1103; &#1079; &#1074;&#1080;&#1082;&#1083;&#1072;&#1076;&#1072;&#1095;&#1077;&#1084;, &#1087;&#1110;&#1076;&#1093;&#1086;&#1076;&#1086;&#1084; &#1110; &#1092;&#1086;&#1088;&#1084;&#1072;&#1090;&#1086;&#1084;.</p>
+      <div class="ctas">
+        <a class="btn btn-light" href="https://acentoespanoll.adsquiz.io/?utm_source=website&amp;utm_medium=landing&amp;utm_content=final" target="_blank" rel="noopener">&#1057;&#1087;&#1088;&#1086;&#1073;&#1091;&#1074;&#1072;&#1090;&#1080; &#1087;&#1088;&#1086;&#1073;&#1085;&#1080;&#1081; &#1091;&#1088;&#1086;&#1082; &#8594;</a>
+        <a class="btn btn-ghost" href="https://ig.me/m/acento.espanol" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>
+          Direct
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&#169; <span id="y">2026</span> acento.espanol</span>
+    <a href="https://www.instagram.com/acento.espanol" target="_blank" rel="noopener">Instagram @acento.espanol</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+  const tabs = document.querySelectorAll('.tab');
+  tabs.forEach(t => t.addEventListener('click', () => {
+    tabs.forEach(x => { x.setAttribute('aria-selected', x === t); document.getElementById(x.getAttribute('aria-controls')).classList.toggle('on', x === t); });
+  }));
+  const io = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+  }), {threshold: .1}) : null;
+  document.querySelectorAll('.reveal').forEach(el => io ? io.observe(el) : el.classList.add('in'));
+</script>
+</body>
+</html>
